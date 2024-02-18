@@ -5,12 +5,7 @@ const songsList = [
     artist: "Ruth B",
     image: "./images/Dandelions.jpeg",
   },
-  {
-    name: "Pathan",
-    link: "./songs/pathan.mp3",
-    artist: "Arijit Singh",
-    image: "./images/pathan.jpg",
-  },
+
   {
     name: "I Wanna Be Your",
     link: "./songs/wannaBeYour.mp3",
@@ -40,5 +35,17 @@ const songsList = [
     link: "./songs/greedy.mp3",
     artist: "Tate McRae",
     image: "./images/greedy.png",
+  },
+  {
+    name: "Cherry Cherry lady",
+    link: "./songs/cherryLady.mp3",
+    artist: "Modern Talking",
+    image: "./images/cherrylady.jpg",
+  },
+  {
+    name: "SummerTime Sadness",
+    link: "./songs/summerTimeSadness.mp3",
+    artist: "Lana Del Rey",
+    image: "./images/summersadness.jpg",
   },
 ];

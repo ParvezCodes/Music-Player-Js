@@ -28,13 +28,50 @@ body {
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
 }
 
-img {
+img:not(.image img) {
   width: 100%;
   height: 100%;
   margin: 1em 0;
   border-radius: 50%;
   object-fit: cover;
   background-position: center;
+}
+
+/* img {
+  width: 100%;
+  height: 100%;
+  margin: 1em 0;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+} */
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.image {
+  width: 340px;
+  height: 340px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  border-radius: 50%;
+  animation: rotateAnimation 20s linear infinite;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  border-radius: 50%;
 }
 
 #playlist {
@@ -133,18 +170,27 @@ img {
   background-color: #ffffff;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   border-radius: 0.6em;
   padding: 2em 1em;
   font-family: "Poppins", sans-serif;
+  overflow-y: scroll;
 }
 
-#playlist-container p{
-  position: absolute;
+/* .playlist-image-container {
+  width: 100%;
+  height: 100%;
+  margin: 1em 0;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+} */
 
+#playlist-container p {
+  position: absolute;
 }
 
 #close-button {
@@ -165,7 +211,6 @@ li {
   align-items: center;
   cursor: pointer;
   border-bottom: 1px solid #dcdcdc;
-
 }
 
 .playlist-song-details {
@@ -185,9 +230,14 @@ button.active i {
   color: #2887e3;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .music-player {
     font-size: 14px;
+  }
+
+  .image {
+    max-width: 280px;
+    max-height: 280px;
   }
 }
 
