@@ -48,4 +48,10 @@ const songsList = [
     artist: "Lana Del Rey",
     image: "./images/summersadness.jpg",
   },
+  {
+    name: "7 Years",
+    link: "./songs/7year.mp3",
+    artist: "Lukas Graham",
+    image: "./images/7year.jpg",
+  },
 ];
