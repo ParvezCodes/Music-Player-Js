@@ -54,4 +54,10 @@ const songsList = [
     artist: "Lukas Graham",
     image: "./images/7year.jpg",
   },
+  {
+    name: "Set Fire To Rain",
+    link: "./songs/setfire.mp3",
+    artist: "Adele",
+    image: "./images/setfire.jpg",
+  },
 ];
