@@ -5,7 +5,12 @@ const songsList = [
     artist: "Ruth B",
     image: "./images/Dandelions.jpeg",
   },
-
+  {
+    name: "Set Fire To Rain",
+    link: "./songs/setfire.mp3",
+    artist: "Adele",
+    image: "./images/setfire.jpg",
+  },
   {
     name: "I Wanna Be Your",
     link: "./songs/wannaBeYour.mp3",
@@ -53,11 +58,5 @@ const songsList = [
     link: "./songs/7year.mp3",
     artist: "Lukas Graham",
     image: "./images/7year.jpg",
-  },
-  {
-    name: "Set Fire To Rain",
-    link: "./songs/setfire.mp3",
-    artist: "Adele",
-    image: "./images/setfire.jpg",
   },
 ];
