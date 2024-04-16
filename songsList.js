@@ -30,18 +30,6 @@ const songsList = [
     image: "./images/kalam.png",
   },
   {
-    name: "Dreamers",
-    link: "./songs/dreamers.mp3",
-    artist: "JungKook",
-    image: "./images/dreamers.jpeg",
-  },
-  {
-    name: "Greedy",
-    link: "./songs/greedy.mp3",
-    artist: "Tate McRae",
-    image: "./images/greedy.png",
-  },
-  {
     name: "Cherry Cherry lady",
     link: "./songs/cherryLady.mp3",
     artist: "Modern Talking",
@@ -58,5 +46,17 @@ const songsList = [
     link: "./songs/7year.mp3",
     artist: "Lukas Graham",
     image: "./images/7year.jpg",
+  },
+  {
+    name: "Let her go",
+    link: "./songs/LetHerGo.mp3",
+    artist: "Passanger",
+    image: "./images/passenger.jpg",
+  },
+  {
+    name: "Sweater Weather",
+    link: "./songs/SweaterWeather.mp3",
+    artist: "Naighbourhood",
+    image: "./images/Neighbourhood.jpg",
   },
 ];
