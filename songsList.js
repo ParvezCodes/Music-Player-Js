@@ -18,10 +18,22 @@ const songsList = [
     image: "./images/wannaBeYour.jpeg",
   },
   {
+    name: "SummerTime Sadness",
+    link: "./songs/summerTimeSadness.mp3",
+    artist: "Lana Del Rey",
+    image: "./images/summersadness.jpg",
+  },
+  {
     name: "Perfect",
     link: "./songs/perfect.mp3",
     artist: "Ed Sheeran",
     image: "./images/perfect.jpeg",
+  },
+  {
+    name: "7 Years",
+    link: "./songs/7year.mp3",
+    artist: "Lukas Graham",
+    image: "./images/7year.jpg",
   },
   {
     name: "Kalam Eineh",
@@ -35,18 +47,7 @@ const songsList = [
     artist: "Modern Talking",
     image: "./images/cherrylady.jpg",
   },
-  {
-    name: "SummerTime Sadness",
-    link: "./songs/summerTimeSadness.mp3",
-    artist: "Lana Del Rey",
-    image: "./images/summersadness.jpg",
-  },
-  {
-    name: "7 Years",
-    link: "./songs/7year.mp3",
-    artist: "Lukas Graham",
-    image: "./images/7year.jpg",
-  },
+
   {
     name: "Let her go",
     link: "./songs/LetHerGo.mp3",
