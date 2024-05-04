@@ -1,9 +1,9 @@
 const songsList = [
   {
-    name: "Dandelions",
-    link: "./songs/dandelions.mp3",
-    artist: "Ruth B",
-    image: "./images/Dandelions.jpeg",
+    name: "Sweet but Psycho",
+    link: "./songs/SweetButPsycho.mp3",
+    artist: "Ava Max",
+    image: "./images/SweetButPsycho.jpg",
   },
   {
     name: "Set Fire To Rain",
@@ -47,17 +47,23 @@ const songsList = [
     artist: "Modern Talking",
     image: "./images/cherrylady.jpg",
   },
-
+  
   {
     name: "Let her go",
     link: "./songs/LetHerGo.mp3",
     artist: "Passanger",
-    image: "./images/passenger.jpg",
+    image: "./images/Passenger.jpg",
   },
   {
     name: "Sweater Weather",
     link: "./songs/SweaterWeather.mp3",
     artist: "Naighbourhood",
     image: "./images/Neighbourhood.jpg",
+  },
+  {
+    name: "Dandelions",
+    link: "./songs/dandelions.mp3",
+    artist: "Ruth B",
+    image: "./images/Dandelions.jpeg",
   },
 ];

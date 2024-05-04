@@ -178,6 +178,7 @@ img:not(.image img) {
   padding: 2em 1em;
   font-family: "Poppins", sans-serif;
   overflow-y: scroll;
+  margin: 40px 0;
 }
 
 /* .playlist-image-container {
