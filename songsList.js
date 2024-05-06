@@ -1,15 +1,21 @@
 const songsList = [
   {
-    name: "Sweet but Psycho",
-    link: "./songs/SweetbutPsycho.mp3",
-    artist: "Ava Max",
-    image: "./images/SweetButPsycho.jpg",
+    name: "Dandelions",
+    link: "./songs/dandelions.mp3",
+    artist: "Ruth B",
+    image: "./images/Dandelions.jpeg",
   },
   {
     name: "Set Fire To Rain",
     link: "./songs/setfire.mp3",
     artist: "Adele",
     image: "./images/setfire.jpg",
+  },
+  {
+    name: "Sweet but Psycho",
+    link: "./songs/SweetbutPsycho.mp3",
+    artist: "Ava Max",
+    image: "./images/SweetButPsycho.jpg",
   },
   {
     name: "I Wanna Be Your",
@@ -59,11 +65,5 @@ const songsList = [
     link: "./songs/SweaterWeather.mp3",
     artist: "Naighbourhood",
     image: "./images/Neighbourhood.jpg",
-  },
-  {
-    name: "Dandelions",
-    link: "./songs/dandelions.mp3",
-    artist: "Ruth B",
-    image: "./images/Dandelions.jpeg",
   },
 ];
