@@ -37,14 +37,6 @@ img:not(.image img) {
   background-position: center;
 }
 
-/* img {
-  width: 100%;
-  height: 100%;
-  margin: 1em 0;
-  border-radius: 50%;
-  object-fit: cover;
-  background-position: center;
-} */
 
 @keyframes rotateAnimation {
   0% {
@@ -243,5 +235,5 @@ button.active i {
 }
 
 .playlist-image-container {
-  width: 3em;
+  width: 3.5em;
 }

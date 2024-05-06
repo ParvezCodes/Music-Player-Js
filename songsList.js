@@ -3,7 +3,7 @@ const songsList = [
     name: "Sweet but Psycho",
     link: "./songs/SweetButPsycho.mp3",
     artist: "Ava Max",
-    image: "./images/SweetButPsycho.jpg",
+    image: "./images/SweetbutPsycho.jpg",
   },
   {
     name: "Set Fire To Rain",
